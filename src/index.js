@@ -1,13 +1,9 @@
-//'index.js' file is the main entry poinr for the application
-
 import React from 'react';
-//entry point to the DOM to render the JSX by using the Virtual Dom
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-//'ReactDom' library is rendering the App component at the 'root' element in the HTML
 ReactDOM.render(
   <React.StrictMode>
     <App />
